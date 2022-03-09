@@ -40,6 +40,8 @@ export interface TOTP {
 export interface OAuthProvider {
   provider_subject: string;
   provider_type: string;
+  profile_picture_url: string;
+  locale: string;
 }
 
 export interface EmailFactor {
